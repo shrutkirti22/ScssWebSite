@@ -1,0 +1,41 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variable";
+
+
+@import "layout/header";
+
+
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+
+
+@import "layout/grid";
+@import "pages/home";
+
+
+
+
+
+@media screen and (max-width: 562px) {
+
+.heading-primary-main {
+    letter-spacing: 1rem;
+    font-size: 5rem;
+}}
+
+@media screen and (max-width: 562px)  {
+.heading-primary-sub  {
+font-size: 2rem;
+letter-spacing: 0.4rem;
+}}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+}
